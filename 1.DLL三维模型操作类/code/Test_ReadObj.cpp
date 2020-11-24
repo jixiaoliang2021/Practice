@@ -6,11 +6,6 @@
 using namespace std;
 
 
-void printProgress(double height)
-{
-		cout << "print height is " << height << endl;
-}
-
 void show_import_progress(int length) // 回调函数
 {
 	cout << "开始读取文件" << '\n';
