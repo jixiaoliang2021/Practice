@@ -1,5 +1,10 @@
 ﻿#include <pthread.h>
 #include <time.h>
+#include <unistd.h>
+#include <errno.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 
 #define WORKERS_TOTAL 3
